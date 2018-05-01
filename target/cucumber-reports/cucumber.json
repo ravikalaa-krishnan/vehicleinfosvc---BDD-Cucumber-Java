@@ -1,0 +1,1079 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 290752,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Registration Numbers are passed one by one to the dvla page and",
+        "description": "confirm the vehicle make and color against the input test data files",
+        "id": "vehicle-registration-check-based-on-the-input-test-data-files-from-/src/test/resources/testdata-folder-filtered-by-xlsx-and-csv-format;registration-numbers-are-passed-one-by-one-to-the-dvla-page-and",
+        "after": [
+          {
+            "result": {
+              "duration": 131502860,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 114156502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9739467252,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the vehicle search page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332151759,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "start the vehicle check",
+            "match": {
+              "location": "VehicleSearchPageSteps.startTheVehicleCheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599231957,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify all the vehicles in \u0027xlsx,csv\u0027 files from the list of files",
+            "match": {
+              "location": "VehicleSearchPageSteps.verifyAllTheVehiclesInXlsxCsvFilesFromTheListOfFiles()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle registration check based on the input test data files from /src/test/resources/testdata folder filtered by xlsx and csv format",
+    "description": "",
+    "id": "vehicle-registration-check-based-on-the-input-test-data-files-from-/src/test/resources/testdata-folder-filtered-by-xlsx-and-csv-format",
+    "keyword": "Feature",
+    "uri": "features/CheckAllVehicles.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 468597007,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle search home page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9148811,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the searchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheSearchpage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "ViewVehicle page text information",
+        "description": "",
+        "id": "vehicle-search-by-registration-number;viewvehicle-page-text-information",
+        "after": [
+          {
+            "result": {
+              "duration": 99991823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 96911669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27842664,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the page title as \"Enter the registration number of the vehicle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter the registration number of the vehicle",
+                  "offset": 32
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeThePageTitleAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 311324672,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle search home page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16917737,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the searchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheSearchpage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55307,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "continue button appears on the vehicle search home page",
+        "description": "",
+        "id": "vehicle-search-by-registration-number;continue-button-appears-on-the-vehicle-search-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 98855282,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 96054424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40040026,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the button text as \"Continue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Continue",
+                  "offset": 33
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheButtonTextAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 263270004,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle search home page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9640641,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the searchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheSearchpage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 83750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "user provides valid registration number",
+        "description": "",
+        "id": "vehicle-search-by-registration-number;user-provides-valid-registration-number;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 91714476,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 100846697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43118600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I provide the registration number as \"OV10JPX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OV10JPX",
+                  "offset": 38
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iProvideTheRegistrationNumberAs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335674361,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the continue button",
+            "match": {
+              "location": "VehicleSearchPageSteps.iClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82110180,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should now see the vehicle confirmation page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iShouldNowSeeTheVehicleConfirmationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26720345,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the color as \"silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "silver",
+                  "offset": 27
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheColorAs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29732552,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see the make as \"volvo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "volvo",
+                  "offset": 26
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheMakeAs(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 718049180,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle search home page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8645527,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the searchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheSearchpage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 70713,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "user provides valid registration number",
+        "description": "",
+        "id": "vehicle-search-by-registration-number;user-provides-valid-registration-number;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87482771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 84327164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40107578,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I provide the registration number as \"PL05XRU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PL05XRU",
+                  "offset": 38
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iProvideTheRegistrationNumberAs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324342144,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the continue button",
+            "match": {
+              "location": "VehicleSearchPageSteps.iClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48994871,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should now see the vehicle confirmation page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iShouldNowSeeTheVehicleConfirmationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19414807,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the color as \"silver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "silver",
+                  "offset": 27
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheColorAs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18475393,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see the make as \"toyota\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toyota",
+                  "offset": 26
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheMakeAs(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 236367938,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle search home page",
+            "match": {
+              "location": "VehicleSearchPageSteps.iNavigateToTheVehicleSearchHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11734371,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the searchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheSearchpage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 73478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "user provides invalid registration number",
+        "description": "",
+        "id": "vehicle-search-by-registration-number;user-provides-invalid-registration-number",
+        "after": [
+          {
+            "result": {
+              "duration": 103943047,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 93630437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37968023,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I provide the registration number as \"GV65RRR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GV65RRR",
+                  "offset": 38
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iProvideTheRegistrationNumberAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 348294025,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click the continue button",
+            "match": {
+              "location": "VehicleSearchPageSteps.iClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33064348,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see the text on vehicle confirmation page as \"Vehicle details could not be found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vehicle details could not be found",
+                  "offset": 55
+                }
+              ],
+              "location": "VehicleSearchPageSteps.iShouldSeeTheTextOnVehicleConfirmationPageAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle Search by Registration Number",
+    "description": "\r\nAs a user I can search for a vehicle information on the DVLA website\r\nso that I can retrieve information which are currently holded by DVLA for that vehicle",
+    "id": "vehicle-search-by-registration-number",
+    "keyword": "Feature",
+    "uri": "features/VehicleSearchByRegistrationNum.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@wip"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1290492845,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle information check homepage",
+            "match": {
+              "location": "HomePageSteps.iNavigateToTheVehicleInformationCheckHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22389879,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the homepage is visible",
+            "match": {
+              "location": "HomePageSteps.iSeeTheHomepageIsVisible()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "get-vehicle-information-from-dvla home page\u0027 text information",
+        "description": "",
+        "id": "get-vehicle-information-from-dvla;get-vehicle-information-from-dvla-home-page\u0027-text-information",
+        "after": [
+          {
+            "result": {
+              "duration": 108636559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 97508579,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21514463,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the title as \"Get vehicle information from DVLA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Get vehicle information from DVLA",
+                  "offset": 27
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheTitleAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20254273,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the text as \"Check online to find out what information the Driver and Vehicle Licensing Agency (DVLA) holds about a vehicle.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check online to find out what information the Driver and Vehicle Licensing Agency (DVLA) holds about a vehicle.",
+                  "offset": 26
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheTextAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20097046,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should also see the text as \"You’ll need the vehicle’s registration number.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You’ll need the vehicle’s registration number.",
+                  "offset": 31
+                }
+              ],
+              "location": "HomePageSteps.iShouldAlsoSeeTheTextAs(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 251785300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle information check homepage",
+            "match": {
+              "location": "HomePageSteps.iNavigateToTheVehicleInformationCheckHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22477578,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the homepage is visible",
+            "match": {
+              "location": "HomePageSteps.iSeeTheHomepageIsVisible()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 62022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "start-now button appears on the homepage",
+        "description": "",
+        "id": "get-vehicle-information-from-dvla;start-now-button-appears-on-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 106252472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 100593869,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19734792,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see the button with text as \"Start now\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Start now",
+                  "offset": 38
+                }
+              ],
+              "location": "HomePageSteps.iShouldSeeTheButtonWithTextAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 238343157,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the vehicle information check homepage",
+            "match": {
+              "location": "HomePageSteps.iNavigateToTheVehicleInformationCheckHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23609378,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the homepage is visible",
+            "match": {
+              "location": "HomePageSteps.iSeeTheHomepageIsVisible()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65972,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.beforeEachScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "clicking the start now button redirects to vehicle searchpage",
+        "description": "",
+        "id": "get-vehicle-information-from-dvla;clicking-the-start-now-button-redirects-to-vehicle-searchpage",
+        "after": [
+          {
+            "result": {
+              "duration": 16371786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.afterEachScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25638321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleSearchPageSteps.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 373363879,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click the start now button",
+            "match": {
+              "location": "HomePageSteps.iClickTheStartNowButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10698172,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the vehiclesearchpage",
+            "match": {
+              "location": "HomePageSteps.iShouldSeeTheVehiclesearchpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get Vehicle Information from DVLA",
+    "description": "\r\n  As a user I can search for a vehicle information on the DVLA website\r\n  so that I can retrieve information which are currently holded by DVLA for that vehicle",
+    "id": "get-vehicle-information-from-dvla",
+    "keyword": "Feature",
+    "uri": "features/getVehicleInfoFromDVLAPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@wip"
+      }
+    ]
+  }
+]

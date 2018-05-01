@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="18.150477">
+<testcase classname="Vehicle registration check based on the input test data files from /src/test/resources/testdata folder filtered by xlsx and csv format" name="Registration Numbers are passed one by one to the dvla page and" time="10.916801">
+<system-out><![CDATA[Given I navigate to the vehicle search page.................................passed
+And start the vehicle check.................................................passed
+Then verify all the vehicles in 'xlsx,csv' files from the list of files.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search by Registration Number" name="ViewVehicle page text information" time="0.702589">
+<system-out><![CDATA[Given I navigate to the vehicle search home page............................passed
+When I should see the searchpage............................................passed
+Then I should see the page title as "Enter the registration number of the vehicle".passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search by Registration Number" name="continue button appears on the vehicle search home page" time="0.563247">
+<system-out><![CDATA[Given I navigate to the vehicle search home page............................passed
+When I should see the searchpage............................................passed
+Then I should see the button text as "Continue".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search by Registration Number" name="user provides valid registration number" time="0.982912">
+<system-out><![CDATA[Given I navigate to the vehicle search home page............................passed
+When I should see the searchpage............................................passed
+When I provide the registration number as "OV10JPX".........................passed
+And I click the continue button.............................................passed
+Then I should now see the vehicle confirmation page.........................passed
+And I should see the color as "silver"......................................passed
+And I should see the make as "volvo"........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search by Registration Number" name="user provides valid registration number 2" time="1.34991">
+<system-out><![CDATA[Given I navigate to the vehicle search home page............................passed
+When I should see the searchpage............................................passed
+When I provide the registration number as "PL05XRU".........................passed
+And I click the continue button.............................................passed
+Then I should now see the vehicle confirmation page.........................passed
+And I should see the color as "silver"......................................passed
+And I should see the make as "toyota".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Vehicle Search by Registration Number" name="user provides invalid registration number" time="0.865076">
+<system-out><![CDATA[Given I navigate to the vehicle search home page............................passed
+When I should see the searchpage............................................passed
+When I provide the registration number as "GV65RRR".........................passed
+And I click the continue button.............................................passed
+Then I should see the text on vehicle confirmation page as "Vehicle details could not be found".passed
+]]></system-out>
+</testcase>
+<testcase classname="Get Vehicle Information from DVLA" name="get-vehicle-information-from-dvla home page' text information" time="1.580945">
+<system-out><![CDATA[Given I navigate to the vehicle information check homepage..................passed
+When I see the homepage is visible..........................................passed
+Then I should see the title as "Get vehicle information from DVLA"..........passed
+And I should see the text as "Check online to find out what information the Driver and Vehicle Licensing Agency (DVLA) holds about a vehicle.".passed
+And I should also see the text as "You’ll need the vehicle’s registration number.".passed
+]]></system-out>
+</testcase>
+<testcase classname="Get Vehicle Information from DVLA" name="start-now button appears on the homepage" time="0.500906">
+<system-out><![CDATA[Given I navigate to the vehicle information check homepage..................passed
+When I see the homepage is visible..........................................passed
+Then I should see the button with text as "Start now".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Get Vehicle Information from DVLA" name="clicking the start now button redirects to vehicle searchpage" time="0.688091">
+<system-out><![CDATA[Given I navigate to the vehicle information check homepage..................passed
+When I see the homepage is visible..........................................passed
+When I click the start now button...........................................passed
+Then I should see the vehiclesearchpage.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
